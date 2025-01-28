@@ -1,3 +1,3 @@
 SELECT *
 FROM {{ ref('fact_trade') }}
-WHERE sk_security_id IS NULL;
+WHERE sk_security_id IS NULL
